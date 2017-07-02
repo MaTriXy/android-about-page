@@ -27,7 +27,7 @@ View aboutPage = new AboutPage(this)
 Available on Jcenter, Maven and JitPack
 
 ```groovy
-compile 'com.github.medyo:android-about-page:1.2'
+compile 'com.github.medyo:android-about-page:1.2.1'
 ```
 
 
@@ -72,8 +72,9 @@ addItem(versionElement)
 
 ### 5. Available attributes for Element Class
 
+
 | Function        | Description  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:|
 | setTitle(String) | Set title of the element|
 | setIconTint(Int) | Set color of the element|
 | setIconDrawable(Int) | Set icon of the element|
@@ -81,7 +82,6 @@ addItem(versionElement)
 | setIntent(Intent) | Set an intent to be called on `onClickListener` |
 | setGravity(Gravity) | Set a Gravity for the element  |
 | setOnClickListener(View.OnClickListener) | If `intent` isn't suitable for you need, implement your custom behaviour by overriding the click listener|
-
 
 ## Sample Project
 [medyo/android-about-page/app/](https://github.com/medyo/android-about-page/tree/master/app)
@@ -112,6 +112,8 @@ The library does supports the following languages :
 * Polish (by [karmil32](https://github.com/karmil32))
 * Persian (by [mortezasun](https://github.com/mortezasun))
 * Traditional Chinese (by [ppcrong](https://github.com/ppcrong))
+* Serbian (by [ljmocic](https://github.com/ljmocic))
+* Greek (by [jvoyatz](https://github.com/jvoyatz))
 
 Please make a Pull request to add a new language.
 
